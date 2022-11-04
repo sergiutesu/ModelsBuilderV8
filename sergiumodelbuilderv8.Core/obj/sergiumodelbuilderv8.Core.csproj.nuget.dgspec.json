@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Umbraco\\Desktop\\ModelsBuilder\\ModelsBuilderV8\\sergiumodelbuilderv8.Core\\sergiumodelbuilderv8.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Umbraco\\Desktop\\ModelsBuilder\\ModelsBuilderV8\\sergiumodelbuilderv8.Core\\sergiumodelbuilderv8.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Umbraco\\Desktop\\ModelsBuilder\\ModelsBuilderV8\\sergiumodelbuilderv8.Core\\sergiumodelbuilderv8.Core.csproj",
+        "projectName": "sergiumodelbuilderv8.Core",
+        "projectPath": "C:\\Users\\Umbraco\\Desktop\\ModelsBuilder\\ModelsBuilderV8\\sergiumodelbuilderv8.Core\\sergiumodelbuilderv8.Core.csproj",
+        "packagesPath": "C:\\Users\\Umbraco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Umbraco\\Desktop\\ModelsBuilder\\ModelsBuilderV8\\sergiumodelbuilderv8.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Umbraco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "UmbracoCms.Core": {
+              "target": "Package",
+              "version": "[8.18.5, )"
+            },
+            "UmbracoCms.Web": {
+              "target": "Package",
+              "version": "[8.18.5, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
